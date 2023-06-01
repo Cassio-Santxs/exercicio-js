@@ -1,0 +1,36 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.info-container h3:first-child {
+    margin-right: 1rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cadastro {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: inline;
+    color: green;
+}
+
+.btns-container {
+    text-align: center;
+}
